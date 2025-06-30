@@ -19,3 +19,5 @@ const calC = (num1, num2, operator) => {
       throw new Error("Invalid operator");
   }
 };
+
+const name = "Salman Siddiqui";
