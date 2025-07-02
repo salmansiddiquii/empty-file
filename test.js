@@ -21,3 +21,19 @@ const calC = (num1, num2, operator) => {
 };
 
 const name = "Salman Siddiqui";
+
+const fi = async () => {
+  const num1 = (await Date().getTime()) % 100; // Simulating a number input
+};
+
+f1()
+  .then(() => {
+    console.log(num1);
+    calC(10, 5, "+"); // Example usage
+    calC(10, 5, "-"); // Example usage
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
+conost;
